@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop API</title> 
+    <link rel="stylesheet" href = "DragandDropAPI.css">
+    <script src="DragandDrop.js" defer></script> 
+</head>
+<body>
+    <header><h1>Drag and Drop Api</h1></header>
+    <div class="draggableContainer">
+    <div class="box" draggable="true" id="box1" ><img src="tiktok.jpg" alt="tiktok.jpg" height="40px" width="40px"> </div>
+    <div class="box" draggable="true"id="box2"><img src="facebook.jpg" alt="facebook.jpg" height="40px" width="40px"></div>
+    <div class="box" draggable="true"id="box3"> <img src="insta.jpg" alt="insta.jpg" height="40px" width="40px"></div>
+    <div class="box" draggable="true"id="box4"><img src="snapchat.jpg" alt="snapchat.jpg" height="40px" width="40px"></div>
+    <div class="box" draggable="true"id="box5"><img src="twitter.jpg" alt="twitter.jpg" height="40px" width="40px"></div>
+     <div class="box" draggable="true"id="box6"><img src="telegram.png" alt="telegram.png" height="40px" width="40px"></div>
+      <div class="box" draggable="true"id="box7"><img src="wattpad.jpg" alt="wattpad.jpg" height="40px" width="40px"></div>
+     </div>
+     
+     <div class="droppableContainer">
+        <div class="droppable" data-draggable-id ="box1">Tiktok</div>
+        <div class="droppable"data-draggable-id ="box3">Instagram</div>
+        <div class="droppable"data-draggable-id ="box4">Snapchat</div>
+        <div class="droppable"data-draggable-id ="box5">X</div>
+        <div class="droppable"data-draggable-id ="box2">Facebook</div>
+        <div class="droppable"data-draggable-id ="box7">Wattpad</div>
+        <div class="droppable"data-draggable-id ="box6">Telegram</div>
+        <br>
+        <div class="class"droppable><p id="remarks"></p></div>
+       TOTAL SCORES:<p id="scores"></p>
+     </div>
+</body>
+</html>
